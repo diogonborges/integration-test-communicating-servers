@@ -1,0 +1,23 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Port80": {
+      "commandName": "Project",
+      "applicationUrl": "http://localhost:80",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Ports__Main": "80",
+        "Ports__Fallback": "82"
+      }
+    },
+    "Port82": {
+      "commandName": "Project",
+      "applicationUrl": "http://localhost:82",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Ports__Main": "82",
+        "Ports__Fallback": "80"
+      }
+    }
+  }
+}
